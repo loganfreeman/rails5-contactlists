@@ -3,7 +3,7 @@
 [`Ruby`](https://www.ruby-lang.org/en/) [`Rails`](http://guides.rubyonrails.org/getting_started.html) [`RSpec`](http://rspec.info/) [`Postgres`](https://www.postgresql.org/) [`Materialize`](http://materializecss.com/)
 
 ## Running the project
-1. Clone the repo: `$ git clone [URL]`
+1. Clone the repo: `$ git clone https://github.com/loganfreeman/rails5-contactlists`
 
 2. Install dependencies: `$ bundle`
 
@@ -22,5 +22,5 @@ Use `$ rspec` to run tests
 add .env to the root directory with the following content:
 
 ```
-TOKEN=d3ef07cd3fb17859a874b7854c84f0ec
+TOKEN=xxxxxxxxxxxxxx
 ```
