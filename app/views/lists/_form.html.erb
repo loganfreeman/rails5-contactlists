@@ -1,0 +1,10 @@
+<%= render "layouts/errors", :object => @list %>
+<%= form_for @list do |f| %>
+<div class="input-field">
+	<%= f.label :name %>
+	<%= f.text_field :name, required: true %>
+</div>
+<div class="center">
+	<%= f.submit class: 'btn black waves-effect waves-light' %>
+</div>
+<% end %>
