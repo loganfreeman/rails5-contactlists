@@ -1,6 +1,6 @@
 ## Technologies used
 
-[`Ruby`](https://www.ruby-lang.org/en/) [`Rails`](http://guides.rubyonrails.org/getting_started.html) [`RSpec`](http://rspec.info/) [`Postgres`](https://www.postgresql.org/) [`Materialize`](http://materializecss.com/)
+[`Ruby`](https://www.ruby-lang.org/en/) [`Rails`](http://guides.rubyonrails.org/getting_started.html) [`RSpec`](http://rspec.info/)  [`Materialize`](http://materializecss.com/)
 
 ## Running the project
 1. Clone the repo: `$ git clone https://github.com/loganfreeman/rails5-contactlists`
