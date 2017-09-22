@@ -36,6 +36,7 @@ class WelcomeController < ApplicationController
     response = RestClient.post "#{STAGE_URL}/api/v2/messages?token=#{TOKEN}", smsMessage.to_json, {content_type: :json, accept: :json} unless message.nil?
 
     puts response.body unless response.nil?
+    puts response.code unless response.nil?
   end
 
   def index
